@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Math Fun</string>
+
+    <string name="learn">Learn First</string>
+    <string name="play">Play Now</string>
+    <string name="choose_difficulty">Choose Difficulty</string>
+    <string name="easy">Easy (1-50)</string>
+    <string name="medium">Medium (1-99)</string>
+    <string name="hard">Hard (100-999)</string>
+
+    <string-array name="learning_tabs">
+        <item>Video: Comparing Numbers</item>
+        <item>Video: Ordering Numbers</item>
+        <item>Video: Composing Numbers</item>
+    </string-array>
+
+    <string-array name="video_ids">
+        <item>YhOf0H_gLP8</item>
+        <item>4cnXDt7TgTg</item>
+        <item>G05AgnEGmgw</item>
+    </string-array>
+
+    <string name="video_thumbnail_desc">Video preview image</string>
+    <string name="play_icon_desc">Play video</string>
+
+    <string name="how_to_play">How to Play</string>
+    <string name="got_it">Got it!</string>
+
+    <string-array name="operation_words">
+        <item>Add</item>
+        <item>Subtract</item>
+        <item>Multiply</item>
+        <item>Divide</item>
+    </string-array>
+
+    <string name="symbol_explanations">
+        ➕ Combine numbers together\n
+        ➖ Take one number from another\n
+        ✖️ Make groups of numbers\n
+        ➗ Share numbers equally
+    </string>
+</resources>

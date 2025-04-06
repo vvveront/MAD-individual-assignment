@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/question_title"
+        style="@style/QuestionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/question_text"
+        style="@style/QuestionInstruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="40dp">
+
+        <TextView
+            android:id="@+id/target1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/empty_box_bg"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:layout_margin="8dp" />
+
+        <TextView
+            android:id="@+id/target2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/empty_box_bg"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:id="@+id/target3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/empty_box_bg"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:layout_margin="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/number_pool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="16dp"
+        android:layout_marginTop="16dp">
+    </LinearLayout>
+
+</LinearLayout>

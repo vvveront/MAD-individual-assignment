@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stars: 0"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btn_add"
+                style="@style/OperationButton"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="Add     (+)"
+                android:textSize="15sp"
+                android:layout_margin="4dp"
+                android:backgroundTint="#4CAF50"/>
+
+            <Button
+                android:id="@+id/btn_subtract"
+                style="@style/OperationButton"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:text="Subtract (-)"
+                android:textSize="15sp"
+                android:layout_margin="4dp"
+                android:backgroundTint="#2196F3"/>
+
+            <Button
+                android:id="@+id/btn_multiply"
+                style="@style/OperationButton"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="Multiply (×)"
+                android:textSize="15sp"
+                android:layout_margin="4dp"
+                android:backgroundTint="#FF9800"/>
+
+            <Button
+                android:id="@+id/btn_divide"
+                style="@style/OperationButton"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="Divide (÷)"
+                android:textSize="15sp"
+                android:layout_margin="4dp"
+                android:backgroundTint="#9C27B0"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_target"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <EditText
+                android:id="@+id/et_num1"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:hint="Number"
+                android:inputType="number"
+                android:textSize="16sp"
+                android:background="@drawable/edittext_bg"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/tv_operator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginHorizontal="10dp"/>
+
+            <EditText
+                android:id="@+id/et_num2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:hint="Number"
+                android:inputType="number"
+                android:textSize="16sp"
+                android:background="@drawable/edittext_bg"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Check"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:onClick="onCheckClick"
+            android:background="@drawable/btn_selector"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/tutorial_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_help"
+        android:layout_gravity="top|end"
+        android:layout_margin="16dp"
+        android:contentDescription="Tutorial icon"
+        android:clickable="true"
+        android:focusable="true"/>
+
+</FrameLayout>

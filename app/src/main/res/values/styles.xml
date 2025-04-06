@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Existing button styles -->
+    <style name="MathButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="OperationButton" parent="MathButton">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minWidth">70dp</item>
+        <item name="android:minHeight">50dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="QuestionTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="QuestionInstruction">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:scrollbarStyle">outsideInset</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarFadeDuration">500</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">3000</item>
+    </style>
+</resources>
