@@ -1,15 +1,68 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Generated files
+bin/
+gen/
+build/
+app/build/
+outputs/
+*.log
+
+# Gradle files
+.gradle/
+gradle-app.setting
+
+# Local configuration
 local.properties
+*.keystore
+*.jks
+
+# IDE files
+.idea/
+*.iml
+.navigation/
+captures/
+.vscode/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
+._*
+
+# Firebase/Google Services
+google-services.json
+
+# External native build
+.externalNativeBuild/
+.cxx/
+
+# Instant Run
+*.orig
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Logs
+logs/
+*.log
+
+# Profiling
+*.hprof
+
+# Audio files (if not in res/raw)
+*.mp3
+*.wav
+*.ogg
+
+# Editor temp files
+*.swp
+*.swo
+*~
+*.bak
